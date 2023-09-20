@@ -1,5 +1,8 @@
-keras==2.13.1
-numpy==1.22.3
-opencv_python==4.8.0.74
-streamlit==1.17.0
-streamlit_webrtc==0.47.0
+keras
+numpy
+opencv_python
+streamlit
+streamlit_webrtc
+easyocr
+opencv-python-headless
+Pillow
