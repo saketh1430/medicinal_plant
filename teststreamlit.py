@@ -6,7 +6,7 @@ from keras.preprocessing import image
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 # Load the Keras model
-model = load_model("keras_model.h5", compile=False)
+model = load_model("./keras_model.h5", compile=False)
 
 # Define class labels
 class_labels = ["Aloevera", "Amla", "Amruta_Balli", "Arali", "Ashoka", "Ashwagandha", "Avacado", "Bamboo", "Basale", "Betel",
